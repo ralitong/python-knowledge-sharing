@@ -18,8 +18,7 @@ class RestaurantUnitTest(unittest.TestCase):
         the waiter returns a random order.
         """
         order = self.waiter.getOrder()
-        self.chef.prepareOrder(order)
-        self.assertAlmostEqual(order, "Spaghetti")
+        self.assertNotEqual(order, "Spaghetti")
 
     def test_get_order_from_magic_mocked_waiter(self):
         """

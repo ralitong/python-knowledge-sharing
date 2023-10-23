@@ -14,11 +14,3 @@ class Waiter:
             meal_list = json.load(f)
         simplified_meal_list = [meal["name"] for meal in meal_list["meals"]]
         return random.choice(simplified_meal_list)
-
-
-class Chef:
-    def __init__(self, name):
-        self.name = name
-
-    def prepareOrder(self, order):
-        print(f"Chef {self.name}: Prepare {order}")

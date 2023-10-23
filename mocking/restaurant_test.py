@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock, patch
-from restaurant import Waiter, Chef
+from restaurant import Waiter
 
 class RestaurantUnitTest(unittest.TestCase):
     """
@@ -9,7 +9,6 @@ class RestaurantUnitTest(unittest.TestCase):
 
     def setUp(self):
         self.waiter = Waiter()
-        self.chef = Chef("John")
 
 
     def test_get_order_from_real_waiter_fails(self):

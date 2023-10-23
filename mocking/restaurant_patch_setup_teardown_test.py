@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from restaurant import Waiter, Chef
+from restaurant import Waiter
 
 class RestaurantPatchSetupTeardownTest(unittest.TestCase):
     """
@@ -11,7 +11,6 @@ class RestaurantPatchSetupTeardownTest(unittest.TestCase):
         self.waiter = Waiter()
         self.get_order_patcher = patch('restaurant.Waiter.getOrder').start()
         self.get_order_patcher.return_value = "Spaghetti"
-        self.chef = Chef("John")
 
     def tearDown(self):
         self.get_order_patcher.stop()

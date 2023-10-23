@@ -1,0 +1,130 @@
+{
+    "meals": [
+      {
+        "name": "Spaghetti Carbonara",
+        "description": "Classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+        "price": 12.99,
+        "ingredients": ["Spaghetti", "Eggs", "Pecorino cheese", "Pancetta", "Black pepper"],
+        "calories": 550
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "description": "Crispy romaine lettuce, grilled chicken, croutons, and Caesar dressing.",
+        "price": 9.99,
+        "ingredients": ["Romaine lettuce", "Grilled chicken", "Croutons", "Caesar dressing"],
+        "calories": 420
+      },
+      {
+        "name": "Vegetable Stir-Fry",
+        "description": "A mix of colorful vegetables stir-fried in a savory sauce, served over rice.",
+        "price": 10.49,
+        "ingredients": ["Broccoli", "Bell peppers", "Carrots", "Snap peas", "Soy sauce", "Rice"],
+        "calories": 380
+      },
+      {
+        "name": "Grilled Salmon",
+        "description": "Fresh salmon fillet grilled to perfection, served with lemon butter sauce.",
+        "price": 15.99,
+        "ingredients": ["Salmon fillet", "Lemon butter sauce"],
+        "calories": 320
+      },
+      {
+        "name": "Margherita Pizza",
+        "description": "Simple and delicious pizza with tomato, mozzarella, and basil.",
+        "price": 11.49,
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Fresh basil"],
+        "calories": 680
+      },
+      {
+        "name": "Beef Tacos",
+        "description": "Tortillas filled with seasoned ground beef, lettuce, tomatoes, and cheese.",
+        "price": 8.99,
+        "ingredients": ["Ground beef", "Tortillas", "Lettuce", "Tomatoes", "Cheese"],
+        "calories": 480
+      },
+      {
+        "name": "Caesar Wrap",
+        "description": "Grilled chicken, romaine lettuce, and Caesar dressing in a tortilla wrap.",
+        "price": 7.99,
+        "ingredients": ["Grilled chicken", "Romaine lettuce", "Caesar dressing", "Tortilla"],
+        "calories": 350
+      },
+      {
+        "name": "Mushroom Risotto",
+        "description": "Creamy Italian rice dish with mushrooms, onions, and Parmesan cheese.",
+        "price": 14.99,
+        "ingredients": ["Arborio rice", "Mushrooms", "Onions", "Parmesan cheese"],
+        "calories": 540
+      },
+      {
+        "name": "BBQ Pulled Pork Sandwich",
+        "description": "Slow-cooked pulled pork in barbecue sauce, served on a bun.",
+        "price": 13.49,
+        "ingredients": ["Pulled pork", "Barbecue sauce", "Bun"],
+        "calories": 620
+      },
+      {
+        "name": "Veggie Burger",
+        "description": "A plant-based patty with lettuce, tomato, and vegan mayo on a bun.",
+        "price": 10.99,
+        "ingredients": ["Veggie patty", "Lettuce", "Tomato", "Vegan mayo", "Bun"],
+        "calories": 380
+      },
+      {
+        "name": "Shrimp Scampi",
+        "description": "Shrimp sautéed in garlic, butter, and white wine, served over pasta.",
+        "price": 16.49,
+        "ingredients": ["Shrimp", "Garlic", "Butter", "White wine", "Pasta"],
+        "calories": 450
+      },
+      {
+        "name": "Beef and Broccoli Stir-Fry",
+        "description": "Tender beef strips and broccoli florets in a savory stir-fry sauce, served with rice.",
+        "price": 12.99,
+        "ingredients": ["Beef", "Broccoli", "Stir-fry sauce", "Rice"],
+        "calories": 530
+      },
+      {
+        "name": "Caprese Salad",
+        "description": "Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.",
+        "price": 9.49,
+        "ingredients": ["Tomatoes", "Mozzarella cheese", "Basil", "Balsamic glaze"],
+        "calories": 320
+      },
+      {
+        "name": "Teriyaki Chicken Bowl",
+        "description": "Grilled teriyaki chicken, steamed vegetables, and rice in a bowl.",
+        "price": 11.99,
+        "ingredients": ["Teriyaki chicken", "Steamed vegetables", "Rice"],
+        "calories": 460
+      },
+      {
+        "name": "Lobster Bisque",
+        "description": "Rich and creamy soup with lobster meat, perfect as an appetizer.",
+        "price": 14.99,
+        "ingredients": ["Lobster meat", "Cream", "Butter", "Sherry"],
+        "calories": 380
+      },
+      {
+        "name": "Margarita Pizza",
+        "description": "Classic pizza with tomato, fresh mozzarella, and fresh basil.",
+        "price": 12.49,
+        "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Fresh basil"],
+        "calories": 720
+      },
+      {
+        "name": "Tofu Pad Thai",
+        "description": "Stir-fried rice noodles with tofu, peanuts, and a tangy sauce.",
+        "price": 10.99,
+        "ingredients": ["Rice noodles", "Tofu", "Peanuts", "Tangy sauce"],
+        "calories": 420
+      },
+      {
+        "name": "Beef Burrito",
+        "description": "Large tortilla filled with seasoned beef, beans, rice, and salsa.",
+        "price": 9.99,
+        "ingredients": ["Seasoned beef", "Beans", "Rice", "Salsa", "Tortilla"],
+        "calories": 580
+      }
+    ]
+  }

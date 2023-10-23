@@ -17,12 +17,9 @@ class RestaurantPatchSetupTeardownTest(unittest.TestCase):
         # Alternatively, you can use the following to stop all patches:
         patch.stopall()
 
-
     def test_get_order_from_patched_waiter(self):
         """
         This test asserts that the order will be Spaghetti since
         the waiter is mocked to return Spaghetti.
         """
         self.assertEqual(self.waiter.getOrder(), "Spaghetti")
-
-
